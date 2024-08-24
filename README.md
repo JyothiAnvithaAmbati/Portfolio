@@ -58,7 +58,7 @@ source env/bin/activate  # On Windows use `env\Scripts\activate`
 pip install -r requirements.txt
 
 Run migrations and start the server:
-Copy code
+
 python manage.py migrate
 python manage.py runserver
 
